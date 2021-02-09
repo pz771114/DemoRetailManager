@@ -4,7 +4,7 @@ using DataManager;
 using Swashbuckle.Application;
 using DataManager.App_Start;
 
-//[assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
+[assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
 namespace DataManager
 {
